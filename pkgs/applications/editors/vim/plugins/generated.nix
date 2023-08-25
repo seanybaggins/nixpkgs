@@ -5399,12 +5399,12 @@ final: prev:
 
   mason-nvim = buildVimPluginFrom2Nix {
     pname = "mason.nvim";
-    version = "2023-08-19";
+    version = "2023-08-25";
     src = fetchFromGitHub {
       owner = "williamboman";
       repo = "mason.nvim";
-      rev = "a51c2d063c5377ee9e58c5f9cda7c7436787be72";
-      sha256 = "041fpyaxjgpd9aqy0afd16pg0ph9vxf5nr7247hgdzrlfs83kxyd";
+      rev = "4a8deb615a477029a549cea5cef69d90e4d1f850";
+      sha256 = "1jlikngsr7912214wi2d1bskgn9701lfb4q1iaan1qp12x41l1y3";
     };
     meta.homepage = "https://github.com/williamboman/mason.nvim/";
   };
@@ -9549,8 +9549,8 @@ final: prev:
     src = fetchFromGitHub {
       owner = "nvim-telescope";
       repo = "telescope-frecency.nvim";
-      rev = "e7825aaf576c22045b7a181ba89b9019104319cf";
-      sha256 = "01l3d0ip8fid0jppn5iiwwf1c586s18z66v7byfiyx5gb8f6ybpr";
+      rev = "5d1a01be63659425c81f29dc56ac77111a1bfb76";
+      sha256 = "0mpkrgk2cgsbxsl8n26j4aiynmgspa6a2svbk1vljval9yfihmzc";
     };
     meta.homepage = "https://github.com/nvim-telescope/telescope-frecency.nvim/";
   };
@@ -10232,12 +10232,12 @@ final: prev:
 
   unison = buildVimPluginFrom2Nix {
     pname = "unison";
-    version = "2023-08-24";
+    version = "2023-08-25";
     src = fetchFromGitHub {
       owner = "unisonweb";
       repo = "unison";
-      rev = "9882d5445cdaca7fc5975f7a703492ba42ed9ab1";
-      sha256 = "0xcmhykvxwmk4fxdb6q0gyim8jwlinyrjfn0zsk17hxvachff9cy";
+      rev = "fc9913f6dfd8fa59a980770fa22e0cb83cf9903a";
+      sha256 = "0cj4bb1sbcrb12iz8m3x5gak1isqkr70mz4mlrsxqgx32s1jcjki";
     };
     meta.homepage = "https://github.com/unisonweb/unison/";
   };
