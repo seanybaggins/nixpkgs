@@ -12836,6 +12836,18 @@ final: prev:
     meta.homepage = "https://github.com/rhysd/vim-llvm/";
   };
 
+  vim-local-history = buildVimPluginFrom2Nix {
+    pname = "vim-local-history";
+    version = "2020-09-13";
+    src = fetchFromGitHub {
+      owner = "dinhhuy258";
+      repo = "vim-local-history";
+      rev = "000b8acecd14ff005a4e1198c82be901c7fbe904";
+      sha256 = "160imn43rcbgc548ai22birgzvxqf3fl3fjhdwc3yx4f4h79kq5w";
+    };
+    meta.homepage = "https://github.com/dinhhuy258/vim-local-history/";
+  };
+
   vim-localvimrc = buildVimPluginFrom2Nix {
     pname = "vim-localvimrc";
     version = "2023-06-08";
