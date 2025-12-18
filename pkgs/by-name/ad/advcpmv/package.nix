@@ -23,6 +23,6 @@ coreutils.overrideAttrs (oldAttrs: {
       This is particularly useful when copying or moving large files or
       directories, providing visual feedback about the operation's progress.
     '';
-    maintainers = with lib.maintainers; [ ];
+    maintainers = [ ];
   };
 })
